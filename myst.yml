@@ -1,0 +1,19 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  # id: fbf0c5d1-f9af-48fe-ada5-b400e12f2898
+  title: Mi libro de ejemplo
+  description: Un libro de ejemplo para aprender a usar Jupyter Book
+  toc:
+      - file: index.md
+      - file: analisis.ipynb
+      - file: usoIA.md
+  # keywords: []
+  # authors: []
+  # github:
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
